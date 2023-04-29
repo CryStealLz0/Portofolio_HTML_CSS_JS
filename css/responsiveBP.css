@@ -5,6 +5,10 @@
   .auto-text-button {
     visibility: hidden;
   }
+
+  .project-box {
+    height: 340vh;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -13,7 +17,6 @@
     height: 72vh;
   }
 
-  /* Contact */
   .contact {
     height: 120vh;
   }
@@ -39,15 +42,25 @@
     top: 68%;
   }
 
-  /* .contact .row .map {
-    height: 25rem;
-    width: 25rem;
-    margin-bottom: 1rem;
+  .project-box .project-box-card .card-project {
+    margin: auto;
+    margin-top: 5vh;
   }
 
-  .contact .row form {
-    padding-top: 0;
-  } */
+  .project-box .project-box-card .project-table {
+    margin-top: 5%;
+    margin: auto;
+  }
+
+  .project-box .project-box-card .project-table table {
+    margin: auto;
+    margin-top: 3vh;
+    border-left: none;
+  }
+
+  .project-box {
+    height: 310vh;
+  }
 }
 
 /* Ukuran tablet */
@@ -68,9 +81,27 @@
     font-size: 1.6rem;
   }
 
+  /* Project */
+  .project-box .project-box-card .card-project img {
+    width: 30rem;
+    height: 20rem;
+  }
+
   /* Content */
   .content {
     height: 100vh;
+  }
+
+  .project-table table {
+    width: 60vh;
+  }
+
+  .project-table table tr {
+    width: 60vh;
+  }
+
+  .project-box {
+    height: 300vh;
   }
 }
 
