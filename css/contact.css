@@ -1,0 +1,80 @@
+.contact {
+  display: flexbox;
+  width: 98%;
+  height: 80vh;
+  margin: auto;
+  background-color: rgb(5, 5, 5);
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contact h1 {
+  margin-left: 2rem;
+  margin-bottom: 4rem;
+}
+
+.contact h1 span {
+  color: aqua;
+  font-style: italic;
+}
+
+.contact .row {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 8% 8% 0% 0%;
+  box-shadow: -1px -1px 2px aqua;
+  width: 100vh;
+  height: 60vh;
+}
+
+.contact .row .map {
+  height: 40vh;
+  width: 40vh;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.contact .row form {
+  width: 60vh;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.contact .row form .input-group {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border: 1px solid white;
+  height: 4rem;
+  padding-left: 2rem;
+}
+
+.contact .row form .input-group input {
+  width: 80%;
+  padding: 2rem;
+  font-size: 1.7rem;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: none;
+}
+
+.contact .row form .btn {
+  margin-top: 3rem;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.7rem;
+  color: white;
+  background-color: rgb(0, 145, 0);
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.contact .row form .btn:hover {
+  background-color: rgb(0, 99, 0);
+}

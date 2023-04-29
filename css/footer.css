@@ -1,0 +1,29 @@
+footer {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  padding: 1rem 3rem;
+  margin-top: 3rem;
+}
+
+footer .social {
+  padding: 1rem 0;
+}
+
+footer .social a {
+  color: white;
+  margin: 1rem;
+}
+
+footer .social a:hover {
+  color: aqua;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+}
+
+footer .credit a {
+  color: white;
+  font-weight: 700;
+}

@@ -1,0 +1,56 @@
+.content {
+  display: flexbox;
+  width: 98%;
+  height: 50vh;
+  margin: auto;
+  background-color: rgb(5, 5, 5);
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black, -1px -1px 3px aqua;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.content .content-card h2 {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.content .content-card h2 span {
+  color: aqua;
+  font-style: italic;
+}
+
+.content .content-card .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 20rem;
+  top: 0%;
+}
+
+.content .content-card .row .skill {
+  width: 20rem;
+  height: 12rem;
+  background-color: black;
+  justify-content: center;
+  margin: 5px;
+  text-align: center;
+  padding-top: 2rem;
+  border-radius: 5%;
+  box-shadow: -1px -1px 1px aqua;
+  overflow: hidden;
+  transition: 1s linear;
+}
+
+.content .content-card .row .skill:hover {
+  height: 20rem;
+}
+
+.content .content-card .row .skill img {
+  width: 8rem;
+}
+
+.content .content-card .row .skill p {
+  margin: 6px;
+  padding-top: 2rem;
+}

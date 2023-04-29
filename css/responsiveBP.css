@@ -1,0 +1,123 @@
+/* Ukuran tertentu */
+@media screen and (max-width: 1400px) {
+  .text-box,
+  .text-auto,
+  .auto-text-button {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  /* Content */
+  .content {
+    height: 72vh;
+  }
+
+  /* Contact */
+  .contact {
+    height: 120vh;
+  }
+
+  .contact .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vh;
+    height: 100vh;
+  }
+
+  .contact .row .map {
+    margin-left: 0;
+  }
+
+  .profile .profile-img .flower-bg::after,
+  .dark .profile .profile-img .flower-bg::after {
+    top: 8%;
+  }
+
+  .profile .profile-img .flower-bg::before,
+  .dark .profile .profile-img .flower-bg::before {
+    top: 68%;
+  }
+
+  /* .contact .row .map {
+    height: 25rem;
+    width: 25rem;
+    margin-bottom: 1rem;
+  }
+
+  .contact .row form {
+    padding-top: 0;
+  } */
+}
+
+/* Ukuran tablet */
+@media screen and (max-width: 768px) {
+  /* Navbar */
+  .navbar #humberger a {
+    font-size: 1.2rem;
+    margin: 0 0.3rem;
+    font-weight: 400;
+  }
+
+  .navbar .navbar-darkMode a {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  .navbar .navbar-logo {
+    font-size: 1.6rem;
+  }
+
+  /* Content */
+  .content {
+    height: 100vh;
+  }
+}
+
+/* Ukuran mobile */
+@media screen and (max-width: 576px) {
+  /* Navbar */
+  .navbar #humberger {
+    position: absolute;
+    right: 0;
+    top: 0;
+    flex-direction: column;
+    background-color: rgb(30, 30, 30);
+    margin-top: 4rem;
+    height: 100vh;
+    width: 60%;
+    transform: translate(100%);
+    opacity: 0;
+    transition: all 1s;
+  }
+
+  #humberger.navbar-nav {
+    opacity: 1;
+    transform: translate(0);
+  }
+
+  #humberger.navbar-nav a:hover {
+    background-color: black;
+  }
+
+  .navbar #humberger.navbar-nav a {
+    padding: 10px;
+  }
+
+  .navbar .navbar-darkMode a {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-left: 5rem;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .profile .profile-img .flower-bg::after,
+  .dark .profile .profile-img .flower-bg::after,
+  .profile .profile-img .flower-bg::before,
+  .dark .profile .profile-img .flower-bg::before {
+    opacity: 0%;
+  }
+}

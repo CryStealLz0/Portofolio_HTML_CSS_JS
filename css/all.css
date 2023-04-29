@@ -1,0 +1,19 @@
+* {
+  font-family: "Times New Roman", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  /* border: 1px solid red; */
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(10, 10, 10);
+  color: white;
+  overflow-x: hidden;
+}

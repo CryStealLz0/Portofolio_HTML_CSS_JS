@@ -1,0 +1,88 @@
+.dark {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-color: 1px solid red;
+}
+
+/* Navbar */
+
+.dark .navbar {
+  border-bottom: 1px solid red;
+  box-shadow: 2px 0px 8px red;
+  border: 1px solid black;
+}
+
+.dark .navbar .navbar-logo span,
+.dark .navbar #humberger a:hover,
+.dark .navbar .navbar-darkMode a:hover {
+  color: red;
+}
+
+.dark .navbar #humberger a {
+  text-shadow: 1px 1px 5px red;
+}
+
+.dark .navbar .navbar-darkMode a::before {
+  content: url(../icon/sun.svg) "";
+}
+
+/* Profile */
+
+.dark .profile {
+  background-color: rgb(210, 210, 210);
+  box-shadow: 5px 5px 5px rgb(50, 50, 50), -1px -1px 5px red;
+}
+
+.dark .profile .profile-img {
+  box-shadow: 3px 1px 5px black, -1px -1px 4px red;
+  background-color: rgb(255, 255, 255);
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+}
+
+.dark .profile .profile-img::after {
+  top: 26.8rem;
+  background: linear-gradient(
+    0deg,
+    rgb(255, 255, 255) 8%,
+    rgba(255, 255, 255, 0) 50%
+  );
+}
+
+.dark .profile .profile-img h2 {
+  color: black;
+  text-shadow: 3px 3px 8px rgb(0, 0, 0);
+}
+
+.dark .profile .profile-img .utama {
+  opacity: 1;
+}
+
+.dark .profile .profile-img .flower-bg::after {
+  content: url(../img/hero/flower-dark-edit.png) "";
+}
+
+.dark .profile .profile-img .flower-bg::before {
+  content: url(../img/hero/flower-dark-edit-bot.png) "";
+}
+
+/* Content */
+
+.dark .content {
+  background-color: rgb(210, 210, 210);
+  box-shadow: 5px 5px 5px rgb(50, 50, 50), -1px -1px 3px red;
+}
+
+.dark .content .content-card h2 {
+  text-shadow: 1px 1px 5px black;
+}
+
+.dark .content .content-card h2 span {
+  color: red;
+}
+
+.dark .content .content-card .row .skill {
+  background-color: white;
+  box-shadow: 5px 5px 5px rgb(50, 50, 50), -1px -1px 5px red;
+  border: 2px solid black;
+}
