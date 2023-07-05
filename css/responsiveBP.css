@@ -1,191 +1,191 @@
 /* Ukuran tertentu */
 @media screen and (max-width: 1400px) {
-  .text-box,
-  .text-auto,
-  .auto-text-button {
-    visibility: hidden;
-  }
+    .text-box,
+    .text-auto,
+    .auto-text-button {
+        visibility: hidden;
+    }
 
-  .project-box {
-    height: 340vh;
-  }
+    .project-box {
+        height: 340vh;
+    }
 
-  .project-box .project-box-card .card-project {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    margin-top: 5vh;
-  }
+    .project-box .project-box-card .card-project {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 5vh;
+    }
 
-  .project-box .project-box-card .project-table {
-    margin-top: 5%;
-    margin: auto;
-  }
+    .project-box .project-box-card .project-table {
+        margin-top: 5%;
+        margin: auto;
+    }
 
-  .project-box .project-box-card .project-table table {
-    margin: auto;
-    margin-top: 3vh;
-    border-left: none;
-  }
+    .project-box .project-box-card .project-table table {
+        margin: auto;
+        margin-top: 3vh;
+        border-left: none;
+    }
 
-  .project-table table tr {
-    width: 70vh;
-  }
+    .project-table table tr {
+        width: 70vh;
+    }
 
-  .project-box {
-    height: auto;
-  }
+    .project-box {
+        height: auto;
+    }
 }
 
 @media screen and (max-width: 1000px) {
-  /* Content */
-  .content {
-    height: 72vh;
-  }
+    /* Content */
+    /* .content {
+        height: 72vh;
+    } */
 
-  .contact {
-    height: 120vh;
-  }
+    .contact {
+        height: 120vh;
+    }
 
-  .contact .row {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50vh;
-    height: 100vh;
-  }
+    .contact .row {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50vh;
+        height: 100vh;
+    }
 
-  .contact .row .map {
-    margin-left: 0;
-  }
+    .contact .row .map {
+        margin-left: 0;
+    }
 
-  /* Profil */
+    /* Profil */
 
-  .profile .profile-img .flower-bg::after,
-  .dark .profile .profile-img .flower-bg::after {
-    top: 8%;
-  }
+    /* .profile .profile-img .flower-bg::after,
+    .dark .profile .profile-img .flower-bg::after {
+        top: 8%;
+    }
 
-  .profile .profile-img .flower-bg::before,
-  .dark .profile .profile-img .flower-bg::before {
-    top: 68%;
-  }
+    .profile .profile-img .flower-bg::before,
+    .dark .profile .profile-img .flower-bg::before {
+        top: 68%;
+    } */
 }
 
 /* Ukuran tablet */
 @media screen and (max-width: 768px) {
-  /* Navbar */
-  .navbar #humberger a {
-    font-size: 1.2rem;
-    margin: 0 0.3rem;
-    font-weight: 400;
-  }
+    /* Navbar */
+    .navbar #humberger a {
+        font-size: 1.2rem;
+        margin: 0 0.3rem;
+        font-weight: 400;
+    }
 
-  .navbar .navbar-darkMode a {
-    font-size: 1.2rem;
-    font-weight: 400;
-  }
+    .navbar .navbar-darkMode a {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
 
-  .navbar .navbar-logo {
-    font-size: 1.6rem;
-  }
+    .navbar .navbar-logo {
+        font-size: 1.6rem;
+    }
 
-  /* Project */
-  .project-box .project-box-card .card-project img {
-    width: 30rem;
-    height: 20rem;
-  }
+    /* Project */
+    .project-box .project-box-card .card-project img {
+        width: 30rem;
+        height: 20rem;
+    }
 
-  /* Content */
-  .content {
-    height: 100vh;
-  }
+    /* Content */
+    /* .content {
+        height: 100vh;
+    } */
 
-  /* Project */
+    /* Project */
 
-  .project-table table {
-    width: 60vh;
-  }
+    .project-table table {
+        width: 60vh;
+    }
 
-  .project-table table tr {
-    width: 60vh;
-  }
+    .project-table table tr {
+        width: 60vh;
+    }
 
-  .project-box {
-    height: auto;
-  }
+    .project-box {
+        height: auto;
+    }
 }
 
 /* Ukuran mobile */
 @media screen and (max-width: 576px) {
-  /* Navbar */
-  .navbar #humberger {
-    position: absolute;
-    right: 0;
-    top: 0;
-    flex-direction: column;
-    background-color: rgb(30, 30, 30);
-    margin-top: 4rem;
-    height: 100vh;
-    width: 60%;
-    transform: translate(100%);
-    opacity: 0;
-    transition: all 1s;
-  }
+    /* Navbar */
+    .navbar #humberger {
+        position: absolute;
+        right: 0;
+        top: 0;
+        flex-direction: column;
+        background-color: rgb(30, 30, 30);
+        margin-top: 4rem;
+        height: 100vh;
+        width: 60%;
+        transform: translate(100%);
+        opacity: 0;
+        transition: all 1s;
+    }
 
-  #humberger.navbar-nav {
-    opacity: 1;
-    transform: translate(0);
-  }
+    #humberger.navbar-nav {
+        opacity: 1;
+        transform: translate(0);
+    }
 
-  #humberger.navbar-nav a:hover {
-    background-color: black;
-  }
+    #humberger.navbar-nav a:hover {
+        background-color: black;
+    }
 
-  .navbar #humberger.navbar-nav a {
-    padding: 10px;
-  }
+    .navbar #humberger.navbar-nav a {
+        padding: 10px;
+    }
 
-  .navbar .navbar-darkMode a {
-    font-size: 1.3rem;
-    font-weight: 500;
-    margin-left: 5rem;
-  }
+    .navbar .navbar-darkMode a {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-left: 5rem;
+    }
 
-  .menu-toggle {
-    display: flex;
-  }
+    .menu-toggle {
+        display: flex;
+    }
 
-  .profile .profile-img .flower-bg::after,
-  .dark .profile .profile-img .flower-bg::after,
-  .profile .profile-img .flower-bg::before,
-  .dark .profile .profile-img .flower-bg::before {
-    opacity: 0%;
-  }
+    .profile .profile-img .flower-bg::after,
+    .dark .profile .profile-img .flower-bg::after,
+    .profile .profile-img .flower-bg::before,
+    .dark .profile .profile-img .flower-bg::before {
+        opacity: 0%;
+    }
 
-  /* Project */
+    /* Project */
 
-  .project-box h2:nth-child(2) {
-    margin-top: 1rem;
-    font-size: 1rem;
-    text-align: center;
-  }
+    .project-box h2:nth-child(2) {
+        margin-top: 1rem;
+        font-size: 1rem;
+        text-align: center;
+    }
 
-  .project-box .project-box-card .card-project img {
-    margin: auto;
-    width: 90%;
-    height: 40%;
-  }
+    .project-box .project-box-card .card-project img {
+        margin: auto;
+        width: 90%;
+        height: 40%;
+    }
 
-  .project-table table {
-    width: 90%;
-  }
+    .project-table table {
+        width: 90%;
+    }
 
-  .project-table table tr {
-    width: 90%;
-    font-size: 10px;
-  }
+    .project-table table tr {
+        width: 90%;
+        font-size: 10px;
+    }
 
-  .project-box {
-    height: auto;
-  }
+    .project-box {
+        height: auto;
+    }
 }

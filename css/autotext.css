@@ -1,115 +1,118 @@
 .text-box {
-  display: flexbox;
-  position: absolute;
-  top: 37%;
-  left: 6%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 37%;
+    left: 6%;
 }
 
 .text-box h2 {
-  position: relative;
-  font-family: "Incosolata", Consolas, monospace;
-  font-size: 1.5rem;
-  color: white;
-  margin-bottom: 3px;
+    position: relative;
+    font-family: "Incosolata", Consolas, monospace;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 3px;
 }
 
 .text-box .text-auto::after {
-  content: "|";
-  position: absolute;
-  background-color: black;
-  color: white;
+    content: "|";
+    position: absolute;
+    background-color: black;
+    color: white;
 }
 
 .text-box .text-type-2::before {
-  content: "|";
-  position: absolute;
-  left: 0%;
-  width: 100%;
-  background-color: rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
-  z-index: 99999;
-  animation: hilang 99999s;
-  animation-delay: 6s;
+    content: "|";
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    z-index: 99999;
+    animation: hilang 99999s;
+    animation-delay: 6s;
 }
 
 .text-box .text-type-3::before {
-  content: "|";
-  position: absolute;
-  left: 0%;
-  width: 100%;
-  background-color: rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
-  z-index: 99999;
-  animation: hilang 99999s;
-  animation-delay: 11s;
+    content: "|";
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    z-index: 99999;
+    animation: hilang 99999s;
+    animation-delay: 11s;
 }
 
 .text-type-1::after {
-  right: 20%;
-  width: 80%;
-  animation: typing 4s steps(27) forwards, line 0.8s infinite, stop 6s forwards;
+    right: 20%;
+    width: 80%;
+    animation: typing 4s steps(27) forwards, line 0.8s infinite,
+        stop 6s forwards;
 }
 
 .text-type-2::after {
-  right: 0%;
-  width: 100%;
-  animation: typing 5s steps(30) forwards, line 0.8s infinite, stop 5s forwards;
-  animation-delay: 6s;
+    right: 0%;
+    width: 100%;
+    animation: typing 5s steps(30) forwards, line 0.8s infinite,
+        stop 5s forwards;
+    animation-delay: 6s;
 }
 
 .text-type-3::after {
-  right: 6%;
-  width: 94%;
-  animation: typing 5s steps(35) forwards, line 0.8s infinite;
-  animation-delay: 11s;
+    right: 6%;
+    width: 94%;
+    animation: typing 5s steps(35) forwards, line 0.8s infinite;
+    animation-delay: 11s;
 }
 
 @keyframes hilang {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 @keyframes typing {
-  to {
-    width: 0%;
-  }
+    to {
+        width: 0%;
+    }
 }
 
 @keyframes stop {
-  99% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 @keyframes line {
-  50% {
-    color: transparent;
-  }
+    50% {
+        color: transparent;
+    }
 }
 
 .auto-text-button {
-  width: 20rem;
-  height: 4rem;
-  font-style: bold;
-  font-size: 1.5rem;
-  margin-top: 3rem;
-  background-color: transparent;
-  color: white;
-  border-radius: 15px;
-  border: 1px solid white;
-  box-shadow: 2px 2px 4px aqua;
-  cursor: pointer;
-  transition: 1s;
+    width: 20rem;
+    height: 4rem;
+    font-style: bold;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 4px aqua;
+    cursor: pointer;
+    transition: 1s;
 }
 
 .auto-text-button:hover {
-  background-color: rgba(0, 255, 0, 0.799);
-  color: black;
+    background-color: rgba(0, 255, 0, 0.799);
+    color: black;
 }

@@ -41,7 +41,7 @@
 }
 
 .dark .profile .profile-img::after {
-  top: 26.8rem;
+  top: 28rem;
   background: linear-gradient(
     0deg,
     rgb(255, 255, 255) 8%,

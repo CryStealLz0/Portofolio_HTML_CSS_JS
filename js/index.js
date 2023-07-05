@@ -2,6 +2,7 @@
 let body = document.body;
 function darkMode() {
   body.classList.toggle("dark");
+  console.log("Bisa");
 }
 
 // HamburgerMenu
